@@ -11,6 +11,7 @@ public class TestController {
 	@GetMapping("/hi")
 //	@ResponseBody
 	public String showHi() {
+		System.out.println("hai");
 		return "NewFile";
 	}
 
