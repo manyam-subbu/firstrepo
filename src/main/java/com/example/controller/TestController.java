@@ -5,14 +5,26 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+//@Controller
+//public class TestController {
+//	
+//	@GetMapping("/hi")
+////	@ResponseBody
+//	public String showHi() {
+//		System.out.println("hai");
+//		return "NewFile";
+//	}
+//
+//}
+
+@RestController
 public class TestController {
 	
 	@GetMapping("/hi")
-//	@ResponseBody
+	@ResponseBody
 	public String showHi() {
 		System.out.println("hai");
-		return "NewFile";
+		return "hai";
 	}
 
 }
