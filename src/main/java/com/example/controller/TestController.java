@@ -28,4 +28,8 @@ public class TestController {
 		return "hai";
 	}
 
+	public void secondmain(){
+		System.out.println("from second main branch");
+	}
+
 }
