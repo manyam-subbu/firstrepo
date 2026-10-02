@@ -24,6 +24,7 @@ public class TestController {
 	@ResponseBody
 	public String showHi() {
 		System.out.println("hai");
+		System.out.println("first edit at 7:14");
 		return "hai";
 	}
 
